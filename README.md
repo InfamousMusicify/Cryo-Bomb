@@ -1,4 +1,4 @@
-# [Cryo-Bomb](https://youtu.be/pgQl1X-ksjs)
+# [Cryo-Bomb 🎥](https://youtu.be/pgQl1X-ksjs)
 Cryo-Bomb, a Minecraft Data Pack.  Create a super cold blast!  Cool lava and freeze water!
 
 ### How to Use:
