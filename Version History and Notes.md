@@ -22,4 +22,4 @@ Pack.png added, credits made, liscensed.
   V0.0.1:
 Compatibility patch for 1.13-1.15, turns lava to stone isntead of basalt, sounds are different, visuals are different.
 
-~ ~ ~
+#
