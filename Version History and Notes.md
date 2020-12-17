@@ -1,7 +1,7 @@
 # Minecraft 1.16 - 1.16.4  
 #### Minecraft 1.16.4:  
-  V1.2: (planned Update)  
-Adding Mini Cryo-Bomb, Packed ice next to magma, Cool lava to magma.
+  V1.2:    
+Added Mini Cryo-Bomb, Packed ice next to magma, Cool lava to magma. (instead of basalt)
 #
   V1.1:  
 Re-did code, more easily read/writeable.  preparing to update the pack with more features.  
