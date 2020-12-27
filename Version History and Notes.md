@@ -33,5 +33,12 @@ Freezes Water, Cools Lava.
 Pack.png added, credits made, liscensed.  
 
 # Minecraft 1.13 - 1.15.x
+  ~V0.0.3:  
+Updated: Freezes Most Water types!
+Bug Fixes with Entity deletion
+#
+  ~V0.0.2:  
+Added Mini Cryo Bomb
+#
   ~V0.0.1:   
 Compatibility patch for 1.13-1.15, turns lava to stone isntead of basalt, sounds are different, visuals are different.  
