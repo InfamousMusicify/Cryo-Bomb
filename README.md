@@ -2,7 +2,7 @@
 Cryo-Bomb, a Minecraft Data Pack.  Create a super cold blast!  Cool lava and freeze water!
 
 #### Tested in 1.17.1
-Works with all Datapack compatible versions of MC Java, 1.13 - 1.17.
+Works with all Datapack compatible versions of MC Java, 1.13 - 1.17.x
 
 ### How to Use:
 Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the blast will turn nearby water/lava to its solid form.  
