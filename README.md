@@ -1,4 +1,4 @@
-# [Cryo-Bomb 🎥](https://youtu.be/pgQl1X-ksjs)
+# [🎥Cryo-Bomb](https://youtu.be/pgQl1X-ksjs)  - Sister Pack [Thermite🔗](https://github.com/InfamousMusicify/Thermite)  
 Cryo-Bomb, a Minecraft Data Pack.  Create a super cold blast!  Cool lava and freeze water!
 
 #### Tested in 1.17.1
@@ -16,6 +16,8 @@ __1.13-1.15 version will turn lava to stone.
 (I just improved the pack for my purposes and made it multipurpose.)
 
 ### [How to Install a Datapack](https://www.youtube.com/watch?v=4Dxzw12TQcg)  
+
+# 
 
 Cheers  
 - Infamous  
