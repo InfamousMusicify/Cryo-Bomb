@@ -1,6 +1,7 @@
 # [🎥Cryo-Bomb](https://youtu.be/pgQl1X-ksjs)  - Sister Pack [Thermite🔗](https://github.com/InfamousMusicify/Thermite)  
 ### Cryo-Bomb - A Minecraft Data Pack.   
-#### Create a super cold blast!  Cool lava and freeze water!  
+__Cool lava and freeze water!__    
+Create a super cold blast!  
 
 __How to Use:__  
 _Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the blast will turn nearby water/lava to its solid form.  
