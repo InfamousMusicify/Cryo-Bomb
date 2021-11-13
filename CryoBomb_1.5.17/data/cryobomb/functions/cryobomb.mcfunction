@@ -10,6 +10,7 @@ execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5
 # Water Freeze
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:water
+
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:ice replace #minecraft:cryolog
