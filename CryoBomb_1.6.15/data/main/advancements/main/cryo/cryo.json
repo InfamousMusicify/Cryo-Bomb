@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Cryo-Bomb 1.4                                                  ",
+        "description": "Place blue ice on a magma block to create a Cryo-Bomb. \nTurns lava to basalt and water to ice. \nPlacing Packed Ice next to magma will create a mini Cryo-Bomb,\nturning lava to magma, freezes less water.  \nStanding to close will hurt!",
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "main:main/cryo",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
