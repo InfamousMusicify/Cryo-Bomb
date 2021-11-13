@@ -16,7 +16,5 @@ __1.13-1.15 version will turn lava to stone.
 
 ### [How to Install a Datapack](https://www.youtube.com/watch?v=4Dxzw12TQcg)  
 
-### [🔗Download current latest version🔗](https://github.com/InfamousMusicify/Cryo-Bomb/archive/refs/heads/main.zip)
-
 Cheers  
 - Infamous  
