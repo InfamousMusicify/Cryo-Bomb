@@ -7,7 +7,7 @@ __How to Use:__
 _Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the blast will turn nearby water/lava to its solid form.  
 Place Packed Ice next to Magma to create a mini Cryo-Bomb! (turns lava to magma)  
 Standing to close may hurt._
-
+## [🔗Download🔗](https://github.com/InfamousMusicify/Cryo-Bomb/archive/refs/heads/1.15.zip)
 __1.13-1.15 version will turn lava to stone.  
 [Navigate to Branches for older versions.](https://github.com/InfamousMusicify/Cryo-Bomb/branches)__   
 
