@@ -1,5 +1,5 @@
 # [🎥Cryo-Bomb](https://youtu.be/pgQl1X-ksjs)  - Sister Pack [Thermite🔗](https://github.com/InfamousMusicify/Thermite)  
-### Cryo-Bomb - A Minecraft Data Pack.   
+### Cryo-Bomb - Minecraft: Java Edition - Data Pack 
 __Create a super cold blast!  
 Cool lava and freeze water!__    
   
