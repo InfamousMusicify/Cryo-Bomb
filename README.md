@@ -15,7 +15,7 @@ Standing to close may hurt._
 __1.13-1.15 version will turn lava to stone.   
 [Navigate to Branches for older versions.](https://github.com/InfamousMusicify/Cryo-Bomb/branches)__    
 
-[How to Install a Datapack](https://www.youtube.com/watch?v=4Dxzw12TQcg)  
+[How to Install a Datapack](https://youtu.be/JHEjZlVlqGE)  
 
 Original pack: [Lava Sponge](https://www.planetminecraft.com/data-pack/lava-sponges-1-16/)    
 By: Cortexiphen  
