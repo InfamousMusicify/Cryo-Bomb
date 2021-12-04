@@ -4,13 +4,13 @@
             "item": "minecraft:blue_ice"
         },
         "title": {
-            "text": "Cryo-Bomb",
+            "text": "Cryo-Bomb                                                  ",
             "color": "white",
             "bold": false,
             "italic": false
         },
         "description": {
-            "text": "Use magma and blue ice to create a super cold blast!",
+            "text": "Place blue ice on a magma block to create a Cryo-Bomb.\nPlacing Packed Ice next to magma will create a Mini Cryo-Bomb",
             "color": "green",
             "bold": false,
             "italic": true
