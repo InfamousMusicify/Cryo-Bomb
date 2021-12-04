@@ -11,20 +11,17 @@ execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-6 ~
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace minecraft:water
+
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
+
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:ice replace #minecraft:cryolog
-# Effect Players closeby
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..2] minecraft:blindness 15 0 true
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..2] slowness 30 1 true
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..2] minecraft:mining_fatigue 30 0 true
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..2] minecraft:weakness 30 0 true
-# Damage
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..2.35] instant_damage 1 0 true
-# Far effect player
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..3.2] slowness 5 0 true
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..3.2] minecraft:mining_fatigue 5 0 true
-execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run effect give @e[distance=..3.2] minecraft:weakness 5 0 true
+
+execute as @e[distance=..4] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] run function thermite:meffect
+
 # Viusals
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run particle minecraft:soul_fire_flame ~ ~.55 ~ 2 2 2 1 3000 force
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run particle minecraft:dolphin ~ ~.55 ~ 4 4 4 1 5000 force
