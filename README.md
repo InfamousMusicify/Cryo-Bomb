@@ -10,6 +10,8 @@ _Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the bla
 Place Packed Ice next to Magma to create a mini Cryo-Bomb! (turns lava to magma)  
 Standing to close may hurt._  
 
+#### If you are wearing a Netherite Chestplate or a __*[Chains+](https://github.com/InfamousMusicify/Chains-Plus)*__ Chest piece you will not be damaged by the blast! 
+
 ### Hit the advancements key to see in game info and help!
 
 ## [🔗Download🔗](https://github.com/InfamousMusicify/Cryo-Bomb/archive/refs/heads/1.17.zip)  
