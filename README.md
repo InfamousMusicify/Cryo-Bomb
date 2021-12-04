@@ -12,7 +12,7 @@ Standing to close may hurt._
 
 ### Hit the advancements key to see in game info and help!
 
-## [🔗Download🔗](https://github.com/InfamousMusicify/Cryo-Bomb/archive/refs/heads/main.zip)  
+## [🔗Download🔗](https://github.com/InfamousMusicify/Cryo-Bomb/archive/refs/heads/1.17.zip)  
 
 __1.13-1.15 version will turn lava to stone.   
 [Navigate to Branches for older versions.](https://github.com/InfamousMusicify/Cryo-Bomb/branches)__    
