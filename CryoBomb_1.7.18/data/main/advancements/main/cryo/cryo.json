@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Cryo-Bomb 1.4                                                  ",
-        "description": "Place blue ice on a magma block to create a Cryo-Bomb. \nTurns lava to basalt and water to ice. \nPlacing Packed Ice next to magma will create a mini Cryo-Bomb,\nturning lava to magma, freezes less water.  \nStanding to close will hurt!",
+        "title": "Create a super cold blast!                                 ",
+        "description": "Turns lava to basalt and water to ice.\nMini Cryo-Bomb turns lava to magma, freezes less water.\nStanding to close will hurt!\nIf you are wearing a Netherite Chestplate or a Chains+ Chest piece you will not be damaged by the blast!",
         "icon": {
             "item": "minecraft:magma_block"
         },
