@@ -7,21 +7,22 @@ execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-1 ~
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:magma_block replace minecraft:lava
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:magma_block replace minecraft:lava
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-6 ~-5 ~-6 ~6 ~4 ~6 minecraft:magma_block replace minecraft:lava
-# Water Freeze
+# conduit
+execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-7 ~-6 ~6 ~5 ~6 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
+# Condense
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-1 ~ ~ ~1 ~ ~ minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~ ~-1 ~ ~ ~1 ~ minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~ ~ ~-1 ~ ~ ~1 minecraft:air replace minecraft:water
-
+# Water
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
-
+# everything
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~-5 ~-2 ~2 ~4 ~2 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:ice replace #minecraft:cryolog
-
-execute as @e[distance=..4] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] run function thermite:meffect
-
+# effect
+execute as @e[distance=..4] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=m_cryo_entity,distance=..4] run function thermite:meffect
 # Viusals
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run particle minecraft:soul_fire_flame ~ ~.55 ~ 2 2 2 1 3000 force
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run particle minecraft:dolphin ~ ~.55 ~ 4 4 4 1 5000 force
