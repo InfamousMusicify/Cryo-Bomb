@@ -228,10 +228,7 @@
 		"minecraft:campfire",
 		"minecraft:soul_campfire",
 		"minecraft:lantern",
-		"minecraft:soul_lantern",
-		"minecraft:creeper_wall_head",
-		"minecraft:player_wall_head",
-		"minecraft:zombie_wall_head",
+		"minecraft:soul_lantern"
 		"minecraft:dragon_wall_head"
 	]
 }

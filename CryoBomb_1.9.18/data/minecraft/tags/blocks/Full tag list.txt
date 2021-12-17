@@ -285,11 +285,6 @@
 		"minecraft:soul_campfire",
 		"minecraft:lantern",
 		"minecraft:soul_lantern",
-#	Heads (drycryolog)
-		"minecraft:creeper_wall_head",
-		"minecraft:player_wall_head",
-		"minecraft:zombie_wall_head",
-		"minecraft:dragon_wall_head"
 #	Water: (Cryolog)
 		"minecraft:bubble_column",
 		"minecraft:water",
