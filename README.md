@@ -5,6 +5,9 @@
 __Create a super cold blast!   
 Cool lava and freeze water!__     
 
+# This page is deprecated!
+## Now merged into [Thermodynamic](https://github.com/InfamousMusicify/Thermodynamic), check there for updates on this mechanic!
+
 __How to Use:__  
 _Place a Blue Ice block on a Magma Block and it will create a Cryo-Bomb, the blast will turn nearby water/lava to its solid form.  
 Place Packed Ice next to Magma to create a mini Cryo-Bomb! (turns lava to magma)  
