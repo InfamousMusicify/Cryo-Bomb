@@ -11,7 +11,7 @@ execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-5
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:water
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:air replace minecraft:water
 # conduit
-execute at @e[type=minecraft:armor_stand,tag=therm_entity] as @s run fill ~-6 ~-7 ~-6 ~6 ~5 ~6 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
+execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-6 ~-7 ~-6 ~6 ~5 ~6 minecraft:conduit[waterlogged=false] replace minecraft:conduit[waterlogged=true]
 # Water - Replace "none redstone" componenets that are water logged
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-4 ~-7 ~-4 ~4 ~6 ~4 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
 execute at @e[type=minecraft:armor_stand,tag=cryo_entity] as @s run fill ~-5 ~-6 ~-5 ~5 ~5 ~5 minecraft:air replace #minecraft:drycryolog[waterlogged=true]
