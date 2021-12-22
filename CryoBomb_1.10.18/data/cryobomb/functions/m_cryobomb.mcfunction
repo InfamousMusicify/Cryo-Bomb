@@ -22,7 +22,8 @@ execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-2 ~
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-3 ~-4 ~-3 ~3 ~3 ~3 minecraft:ice replace #minecraft:cryolog
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] as @s run fill ~-4 ~-3 ~-4 ~4 ~2 ~4 minecraft:ice replace #minecraft:cryolog
 # effect
-execute as @e[distance=..4] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=m_cryo_entity,distance=..4] run function thermite:meffect
+execute as @e[distance=..4] unless entity @s[nbt={Inventory:[{Slot:102b, tag:{display:{Lore:['{"text":"Chains+","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:101b, tag:{display:{Lore:['{"text":"Thermodynamic","color":"gray","italic":false}']}}}]}] unless entity @s[nbt={Inventory:[{Slot:102b, id: "minecraft:netherite_chestplate"}]}] at @e[type=minecraft:armor_stand,tag=cryo_entity,distance=..4] run function cryobomb:meffect
+
 # Viusals
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run particle minecraft:soul_fire_flame ~ ~.55 ~ 2 2 2 1 3000 force
 execute at @e[type=minecraft:armor_stand,tag=m_cryo_entity] run particle minecraft:dolphin ~ ~.55 ~ 4 4 4 1 5000 force
